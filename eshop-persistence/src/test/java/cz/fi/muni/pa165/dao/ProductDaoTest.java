@@ -19,7 +19,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import cz.fi.muni.pa165.PersistenceSampleApplicationContext;
-import cz.fi.muni.pa165.dto.Color;
+import cz.fi.muni.pa165.enums.Color;
 import cz.fi.muni.pa165.entity.Category;
 import cz.fi.muni.pa165.entity.Price;
 import cz.fi.muni.pa165.entity.Product;

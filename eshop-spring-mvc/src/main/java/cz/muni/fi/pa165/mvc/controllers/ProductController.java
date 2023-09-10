@@ -1,7 +1,7 @@
 package cz.muni.fi.pa165.mvc.controllers;
 
 import cz.fi.muni.pa165.dto.CategoryDTO;
-import cz.fi.muni.pa165.dto.Color;
+import cz.fi.muni.pa165.enums.Color;
 import cz.fi.muni.pa165.dto.ProductCreateDTO;
 import cz.fi.muni.pa165.dto.ProductDTO;
 import cz.fi.muni.pa165.enums.Currency;

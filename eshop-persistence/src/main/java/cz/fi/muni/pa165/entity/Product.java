@@ -19,7 +19,7 @@ import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 import javax.validation.constraints.NotNull;
 
-import cz.fi.muni.pa165.dto.Color;
+import cz.fi.muni.pa165.enums.Color;
 import cz.fi.muni.pa165.validation.AllOrNothing;
 
 @Entity

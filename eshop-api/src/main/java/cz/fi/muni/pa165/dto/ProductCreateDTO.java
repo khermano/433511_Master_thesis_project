@@ -1,6 +1,7 @@
 package cz.fi.muni.pa165.dto;
 
 
+import cz.fi.muni.pa165.enums.Color;
 import cz.fi.muni.pa165.enums.Currency;
 
 import javax.validation.constraints.Min;

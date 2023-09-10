@@ -13,7 +13,6 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 import static org.springframework.test.web.servlet.setup.MockMvcBuilders.standaloneSetup;
-import static org.springframework.test.web.servlet.setup.MockMvcBuilders.webAppContextSetup;
 
 import java.io.IOException;
 import java.math.BigDecimal;
@@ -39,7 +38,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 import cz.fi.muni.pa165.RootWebContext;
 import cz.fi.muni.pa165.dto.CategoryDTO;
-import cz.fi.muni.pa165.dto.Color;
+import cz.fi.muni.pa165.enums.Color;
 import cz.fi.muni.pa165.dto.NewPriceDTO;
 import cz.fi.muni.pa165.dto.PriceDTO;
 import cz.fi.muni.pa165.dto.ProductCreateDTO;
@@ -48,7 +47,7 @@ import cz.fi.muni.pa165.enums.Currency;
 import cz.fi.muni.pa165.facade.ProductFacade;
 import cz.fi.muni.pa165.rest.controllers.GlobalExceptionController;
 import cz.fi.muni.pa165.rest.controllers.ProductsController;
-import cz.fi.muni.pa165.rest.exceptions.ResourceNotFoundException;
+
 import java.lang.reflect.Method;
 import org.springframework.web.context.WebApplicationContext;
 import org.springframework.web.method.HandlerMethod;

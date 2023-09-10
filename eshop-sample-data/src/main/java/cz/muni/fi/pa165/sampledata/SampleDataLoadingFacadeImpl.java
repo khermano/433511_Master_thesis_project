@@ -1,6 +1,6 @@
 package cz.muni.fi.pa165.sampledata;
 
-import cz.fi.muni.pa165.dto.Color;
+import cz.fi.muni.pa165.enums.Color;
 import cz.fi.muni.pa165.entity.*;
 import cz.fi.muni.pa165.enums.Currency;
 import cz.fi.muni.pa165.enums.OrderState;

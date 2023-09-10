@@ -1,6 +1,6 @@
 package cz.muni.fi.pa165.mvc.forms;
 
-import cz.fi.muni.pa165.dto.Color;
+import cz.fi.muni.pa165.enums.Color;
 import cz.fi.muni.pa165.dto.ProductCreateDTO;
 import org.springframework.validation.Errors;
 import org.springframework.validation.Validator;
