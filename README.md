@@ -10,3 +10,19 @@ Originally was this project an open-sourced Java EE project created for teaching
 - `cd eshop-spring-mvc`
 - `mvn cargo:run`
 - see browser at http://localhost:8080/eshop/
+
+and
+
+- `cd 433511_Master_thesis_project/`
+- `mvn clean install`
+- `cd eshop-angular`
+- `mvn`
+- see browser at e.g.: http://localhost:8080/eshop/
+
+and
+
+- `cd 433511_Master_thesis_project/`
+- `mvn clean install`
+- `cd eshop-rest`
+- `mvn cargo:run`
+- see browser at e.g.: http://localhost:8080/eshop-rest/
