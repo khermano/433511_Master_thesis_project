@@ -1,16 +1,11 @@
 package cz.fi.muni.pa165.service.facade;
 
 import java.util.List;
-
-import javax.inject.Inject;
-
 import cz.fi.muni.pa165.dto.CategoryCreateDTO;
 import cz.fi.muni.pa165.entity.Category;
-import org.dozer.loader.api.BeanMappingBuilder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-
 import cz.fi.muni.pa165.dto.CategoryDTO;
 import cz.fi.muni.pa165.facade.CategoryFacade;
 import cz.fi.muni.pa165.service.BeanMappingService;

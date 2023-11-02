@@ -1,7 +1,6 @@
 package cz.fi.muni.pa165.rest.controllers;
 
 import cz.fi.muni.pa165.dto.ProductDTO;
-import cz.fi.muni.pa165.dto.UserDTO;
 import cz.fi.muni.pa165.facade.ProductFacade;
 import cz.fi.muni.pa165.rest.exceptions.ResourceNotFoundException;
 import cz.fi.muni.pa165.rest.assemblers.ProductResourceAssembler;
@@ -20,7 +19,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
 import org.springframework.http.MediaType;
 import org.springframework.web.context.request.WebRequest;

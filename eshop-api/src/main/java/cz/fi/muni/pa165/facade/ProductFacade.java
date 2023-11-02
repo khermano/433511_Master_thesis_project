@@ -1,6 +1,5 @@
 package cz.fi.muni.pa165.facade;
 
-import cz.fi.muni.pa165.dto.CategoryDTO;
 import cz.fi.muni.pa165.dto.NewPriceDTO;
 import cz.fi.muni.pa165.dto.ProductChangeImageDTO;
 import cz.fi.muni.pa165.dto.ProductCreateDTO;

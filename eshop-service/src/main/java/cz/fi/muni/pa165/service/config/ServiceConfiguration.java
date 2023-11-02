@@ -7,12 +7,9 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
-
 import cz.fi.muni.pa165.PersistenceSampleApplicationContext;
 import cz.fi.muni.pa165.dto.CategoryDTO;
-import cz.fi.muni.pa165.dto.ProductDTO;
 import cz.fi.muni.pa165.entity.Category;
-import cz.fi.muni.pa165.entity.Product;
 import cz.fi.muni.pa165.service.OrderServiceImpl;
 import cz.fi.muni.pa165.service.facade.CategoryFacadeImpl;
 

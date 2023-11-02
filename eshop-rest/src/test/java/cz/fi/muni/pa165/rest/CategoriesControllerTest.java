@@ -1,17 +1,14 @@
 package cz.fi.muni.pa165.rest;
 
 import static org.mockito.Mockito.doReturn;
-import static org.mockito.Mockito.doThrow;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 import static org.springframework.test.web.servlet.setup.MockMvcBuilders.standaloneSetup;
-
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
-
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
@@ -23,12 +20,10 @@ import org.springframework.test.context.web.WebAppConfiguration;
 import org.springframework.test.web.servlet.MockMvc;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
 import cz.fi.muni.pa165.RootWebContext;
 import cz.fi.muni.pa165.dto.CategoryDTO;
 import cz.fi.muni.pa165.facade.CategoryFacade;
 import cz.fi.muni.pa165.rest.controllers.CategoriesController;
-import cz.fi.muni.pa165.rest.exceptions.ResourceNotFoundException;
 import org.springframework.test.context.testng.AbstractTestNGSpringContextTests;
 
 

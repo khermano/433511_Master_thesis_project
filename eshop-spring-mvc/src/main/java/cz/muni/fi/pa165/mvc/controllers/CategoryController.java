@@ -1,10 +1,7 @@
 package cz.muni.fi.pa165.mvc.controllers;
 
 import cz.fi.muni.pa165.dto.*;
-import cz.fi.muni.pa165.enums.Currency;
 import cz.fi.muni.pa165.facade.CategoryFacade;
-import cz.fi.muni.pa165.facade.ProductFacade;
-import cz.muni.fi.pa165.mvc.forms.ProductCreateDTOValidator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,13 +10,10 @@ import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.FieldError;
 import org.springframework.validation.ObjectError;
-import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import org.springframework.web.util.UriComponentsBuilder;
-
 import javax.validation.Valid;
-import java.util.List;
 
 /**
  * SpringMVC Controller for administering categories.

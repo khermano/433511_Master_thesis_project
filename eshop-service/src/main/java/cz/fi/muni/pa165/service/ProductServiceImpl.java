@@ -7,18 +7,11 @@ import cz.fi.muni.pa165.entity.Price;
 import cz.fi.muni.pa165.entity.Product;
 import cz.fi.muni.pa165.enums.Currency;
 import cz.fi.muni.pa165.exceptions.EshopServiceException;
-import cz.fi.muni.pa165.utils.CurrencyRateUtils;
-
 import org.springframework.stereotype.Service;
-
 import javax.inject.Inject;
-
 import java.math.BigDecimal;
 import java.math.RoundingMode;
-import java.util.Collections;
-import java.util.Date;
 import java.util.List;
-import java.util.logging.Logger;
 
 /**
  * Implementation of the {@link ProductService}. This class is part of the

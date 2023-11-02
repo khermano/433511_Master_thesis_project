@@ -1,11 +1,7 @@
 package cz.fi.muni.pa165.service;
 
-import java.util.Collection;
 import java.util.List;
-
 import org.springframework.stereotype.Service;
-
-import cz.fi.muni.pa165.dto.UserDTO;
 import cz.fi.muni.pa165.entity.User;
 
 /**

@@ -2,19 +2,15 @@ package cz.fi.muni.pa165.service;
 
 import java.util.ArrayList;
 import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.testng.AbstractTestNGSpringContextTests;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
-import cz.fi.muni.pa165.dto.CategoryDTO;
 import cz.fi.muni.pa165.dto.ProductDTO;
 import cz.fi.muni.pa165.entity.Category;
 import cz.fi.muni.pa165.entity.Product;
-import cz.fi.muni.pa165.service.BeanMappingService;
 import cz.fi.muni.pa165.service.config.ServiceConfiguration;
 
 @ContextConfiguration(classes = ServiceConfiguration.class)

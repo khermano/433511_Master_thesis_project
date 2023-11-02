@@ -1,14 +1,10 @@
 package cz.fi.muni.pa165.dao;
 
 import java.util.List;
-
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
-
 import org.springframework.stereotype.Repository;
-
 import cz.fi.muni.pa165.entity.Product;
-import org.springframework.transaction.annotation.Transactional;
 
 @Repository
 public class ProductDaoImpl implements ProductDao {

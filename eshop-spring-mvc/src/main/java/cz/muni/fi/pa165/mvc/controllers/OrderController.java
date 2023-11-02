@@ -1,7 +1,6 @@
 package cz.muni.fi.pa165.mvc.controllers;
 
 import cz.fi.muni.pa165.dto.OrderDTO;
-import cz.fi.muni.pa165.dto.OrderItemDTO;
 import cz.fi.muni.pa165.dto.OrderTotalPriceDTO;
 import cz.fi.muni.pa165.enums.Currency;
 import cz.fi.muni.pa165.enums.OrderState;
@@ -18,8 +17,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import org.springframework.web.util.UriComponentsBuilder;
-
-import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 

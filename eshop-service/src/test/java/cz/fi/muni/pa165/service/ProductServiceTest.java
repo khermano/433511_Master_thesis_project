@@ -2,11 +2,9 @@ package cz.fi.muni.pa165.service;
 
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
-
 import java.math.BigDecimal;
 import java.util.Calendar;
 import java.util.Date;
-
 import org.hibernate.service.spi.ServiceException;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
@@ -18,16 +16,12 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
 import cz.fi.muni.pa165.dao.PriceRepository;
 import cz.fi.muni.pa165.dao.ProductDao;
 import cz.fi.muni.pa165.entity.Price;
 import cz.fi.muni.pa165.entity.Product;
 import cz.fi.muni.pa165.enums.Currency;
 import cz.fi.muni.pa165.exceptions.EshopServiceException;
-import cz.fi.muni.pa165.service.ExchangeService;
-import cz.fi.muni.pa165.service.ProductService;
-import cz.fi.muni.pa165.service.TimeService;
 import cz.fi.muni.pa165.service.config.ServiceConfiguration;
 
 @ContextConfiguration(classes=ServiceConfiguration.class)

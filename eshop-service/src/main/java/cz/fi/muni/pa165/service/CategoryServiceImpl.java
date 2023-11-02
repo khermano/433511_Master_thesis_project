@@ -1,15 +1,9 @@
 package cz.fi.muni.pa165.service;
 
 import javax.inject.Inject;
-
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import cz.fi.muni.pa165.dao.CategoryDao;
 import cz.fi.muni.pa165.entity.Category;
-import cz.fi.muni.pa165.entity.Price;
-import cz.fi.muni.pa165.entity.Product;
-
 import java.util.List;
 
 /**
